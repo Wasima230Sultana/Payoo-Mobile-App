@@ -37,27 +37,27 @@
         </div>
 
         <div class="min-h-[200px] mt-4 grid grid-cols-3 gap-4 p-3 rounded-xl">
-            <div id="add-button"class="border-gray-300 border-2 text-center p-3 rounded-xl">
+            <div id="add-button"class="form-btn border-gray-300 border-2 text-center p-3 rounded-xl">
                 <img src="./assets/wallet1.png" alt="" class="mx-auto ">
                 <h2>Add Money</h2>
             </div>
-            <div  id="cash-button"class="border-gray-300 border-2 text-center p-3 rounded-xl">
+            <div  id="cash-button"class="form-btn border-gray-300 border-2 text-center p-3 rounded-xl">
                 <img src="./assets/send1.png" alt="" class="mx-auto">
-                <h2>Cashout</h2>
+                <h2>Cash out</h2>
             </div>
-            <div  id="transfer-button"class="border-gray-300 border-2 text-center p-3 rounded-xl">
+            <div  id="transfer-button"class="form-btn border-gray-300 border-2 text-center p-3 rounded-xl">
                 <img src="./assets/money1.png" alt="" class="mx-auto">
                 <h2>Transfer Money</h2>
             </div>
-            <div id="bonus-button" class="border-gray-300 border-2 text-center p-3 rounded-xl">
+            <div id="bonus-button" class="form-btn border-gray-300 border-2 text-center p-3 rounded-xl">
                 <img src="./assets/bonus1.png" alt="" class="mx-auto">
                 <h2>Get Bonus</h2>
             </div>
-            <div id="pay-button" class="border-gray-300 border-2 text-center p-3 rounded-xl">
+            <div id="pay-button" class="form-btn border-gray-300 border-2 text-center p-3 rounded-xl">
                 <img src="./assets/purse1.png" alt="" class="mx-auto">
                 <h2>Pay Bill</h2>
             </div>
-            <div id="transaction-button" class="border-gray-300 border-2 text-center p-3 rounded-xl">
+            <div id="transaction-button" class="form-btn border-gray-300 border-2 text-center p-3 rounded-xl">
                 <img src="./assets/transaction1.png" alt="" class="mx-auto">
                 <h2>Transactions</h2>
             </div>
@@ -66,7 +66,7 @@
 
     <div class="all-form-section max-w-lg mx-auto mt-5">
         <!-- add money  -->
-        <div id="add-money-parent">
+        <div class="form" id="add-money-parent">
             <h2 class="font-bold text-xl p-5">Add Money</h2>
             <form action="" class="bg-white p-5 rounded-2xl">
                 <div class="mb-3">
@@ -103,7 +103,7 @@
         </div>
 
         <!-- cash out  -->
-        <div id="cash-out-parent" style="display: none;">
+        <div class="form" id="cash-out-parent" style="display: none;">
             <h2 class="font-bold text-xl">Cash Out</h2>
             <form action="" class="bg-white p-5 rounded-2xl">
 
@@ -127,6 +127,12 @@
                 <button id="withdraw-btn" class="btn bg-[#0874f2] text-white mt-5 w-full rounded-3xl ">Withdraw
                     Money</button>
             </form>
+        </div>
+
+        <!-- Transfer Money  -->
+
+        <div class="form" id="transfer-money-parent" style="display: none;">
+            <h1>Transfer Money</h1>
         </div>
 
     </div>
